@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <!-- Header Navigation -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <a href="home.html" class="logo">
+                    <img src="images/logo.jpg" alt="Logo">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="home.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="mywork.html">My Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+                <span id="themeToggle">😀</span> <!-- Mood Indicator -->
+            </div>
+        </nav>
+                
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" data-aos="fade-in">
+        <div class="hero-container">
+            <!-- Text Content on the Left -->
+            <div class="hero-text" data-aos="slide-right">
+                <h1>Welcome to My Personal Website</h1>
+                <p data-aos="fade-up">
+                    Hi, I'm <strong>Vaibhav</strong>, a passionate web developer dedicated to creating engaging digital experiences.
+                </p>
+                <button class="cta-button" data-aos="fade-up">Hire Me</button>
+            </div>
+    
+            <!-- Profile Slider on the Right -->
+            <div class="profile-slider-container">
+                <img src="images/my.jpeg" alt="Photo 1" class="profile-photo active">
+                <img src="images/my 2.jpg" alt="Photo 2" class="profile-photo">
+                <img src="images/my 3.jpg" alt="Photo 3" class="profile-photo">
+                <img src="images/my 4.jpeg" alt="Photo 4" class="profile-photo">
+            </div>
+        </div>
+    </section>
+        
+     
+
+<!-- Education and Achievements Section -->
+<section class="education-achievements" data-aos="fade-in">
+    <div class="details-container">
+        <!-- Schooling Section -->
+        <div class="detail-card" data-aos="flip-left" id="schoolingCard">
+            <img src="images/schooling.webp" alt="Schooling Logo" class="section-logo">
+            <h3>Schooling</h3>
+            <p>Completed my schooling at XYZ High School, where I developed a strong foundation in science and mathematics, alongside various extracurricular activities.</p>
+        </div>
+
+        <!-- Popup for Schooling -->
+        <div id="popup-schooling" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopupSchooling">&times;</span>
+                <h2>Schooling Details</h2>
+                <p>My journey through schooling was not just about textbooks, but also about shaping my skills and passions:</p>
+                <ul>
+                    <li>Excelled in core subjects like Math and Science, ranking among the top 5 in my class.</li>
+                    <li>Active participant in extracurricular activities, especially in sports like football and athletics.</li>
+                    <li>Was elected as class representative, leading several student initiatives.</li>
+                    <li>Started volunteering at a local shelter, building my interest in social causes.</li>
+                    <li>Developed a strong interest in technology, particularly web development, thanks to my high school IT teacher.</li>
+                </ul>
+                <p>Overall, my schooling experience was transformative, setting the foundation for my personal and academic growth.</p>
+            </div>
+        </div>
+
+        <!-- College Section -->
+        <div class="detail-card" id="collegeCard" data-aos="flip-left" data-aos-delay="200">
+            <img src="images/college.jfif" alt="College Logo" class="section-logo">
+            <h3>College</h3>
+            <p>
+                Pursued a Bachelor's degree in Computer Science at Crestwood University, specializing in web development and software engineering.
+            </p>
+        </div>
+
+        <!-- Popup for College -->
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span id="closePopup" class="close">&times;</span>
+                <h2>College Details</h2>
+                <p>Crestwood University provided a dynamic and engaging environment for my academic and professional development:</p>
+                <ul>
+                    <li>Graduated with honors, specializing in Full-Stack Web Development.</li>
+                    <li>Developed a variety of projects including a full-scale e-commerce site as a part of my final year thesis.</li>
+                    <li>Participated in hackathons, winning 2nd place in a national-level coding competition.</li>
+                    <li>Interned with a tech firm, where I worked on real-world web applications and contributed to UI/UX design.</li>
+                    <li>Graduated with a strong foundation in both back-end and front-end development, particularly using JavaScript, Node.js, and React.</li>
+                </ul>
+                <p>My time at college not only sharpened my technical skills but also gave me the opportunity to work on challenging projects and collaborate with like-minded peers.</p>
+            </div>
+        </div>
+
+        <!-- Achievements Section -->
+        <div class="detail-card" data-aos="flip-left" data-aos-delay="400" id="achievementsCard">
+            <img src="images/archieve.jpg" alt="Achievements Logo" class="section-logo">
+            <h3>Achievements</h3>
+            <p>Awarded the Best Student Developer of the Year at ABC University and led multiple successful tech projects that received national recognition.</p>
+        </div>
+
+        <!-- Popup for Achievements -->
+        <div id="popup-achievements" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopupAchievements">&times;</span>
+                <h2>Achievements Details</h2>
+                <p>Throughout my academic and professional journey, I’ve received numerous accolades:</p>
+                <ul>
+                    <li>Awarded “Best Student Developer” of the Year for exceptional contributions in coding and innovation.</li>
+                    <li>Led a team that developed a web application for a local NGO, which improved their outreach by 30%.</li>
+                    <li>Received a scholarship for excellence in tech from my college.</li>
+                    <li>Published an article in a leading tech blog, sharing insights about the future of AI in web development.</li>
+                    <li>Actively volunteered at coding bootcamps, helping teach coding to underrepresented communities.</li>
+                </ul>
+                <p>These experiences have been crucial in shaping me as a developer, and I continue to strive for excellence in every project I undertake.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Personal Details Section -->
+    <section class="personal-details" data-aos="fade-in">
+        <h2 data-aos="fade-up">Get to Know Me Better</h2>
+        <div class="details-container">
+            <div class="detail-card" data-aos="flip-left">
+                <img src="images/hobbies.jpg" alt="Hobbies Logo" class="section-logo">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Coding & Web Development</li>
+                    <li>Playing Basketball</li>
+                    <li>Listening to Music</li>
+                    <li>Reading Tech Blogs</li>
+                </ul>
+            </div>
+            <div class="detail-card" data-aos="flip-left" data-aos-delay="200">
+                <img src="images/likes1.webp" alt="Likes Logo" class="section-logo">
+                <h3>Likes</h3>
+                <ul>
+                    <li>Exploring New Technologies</li>
+                    <li>Traveling and Hiking</li>
+                    <li>Fitness and Healthy Living</li>
+                    <li>Italian Cuisine</li>
+                </ul>
+            </div>
+            <div class="detail-card" data-aos="flip-left" data-aos-delay="400">
+                <img src="images/dislikes.png" alt="Dislikes Logo" class="section-logo">
+                <h3>Dislikes</h3>
+                <ul>
+                    <li>Procrastination</li>
+                    <li>Cluttered Workspaces</li>
+                    <li>Unnecessary Meetings</li>
+                    <li>Slow Internet Connections</li>
+                </ul>
+            </div>
+            <div class="detail-card" data-aos="flip-left" data-aos-delay="600">
+                <img src="images/fun.jpg" alt="Fun Facts Logo" class="section-logo">
+                <h3>Fun Facts</h3>
+                <ul>
+                    <li>I can solve a Rubik's Cube in under 2 minutes.</li>
+                    <li>I'm a night owl and love late-night coding sessions.</li>
+                    <li>I once backpacked across 5 countries in a month.</li>
+                    <li>I'm fluent in 3 languages.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer data-aos="fade-up">
+        <div class="footer-container">
+            <!-- About Section -->
+            <div class="footer-about">
+                <h4>About Me</h4>
+                <p>I’m Vaibhav, a web developer passionate about creating innovative and responsive websites. Based in Canada, I’m committed to delivering high-quality digital experiences.</p>
+            </div>
+    
+            <!-- Quick Links Section -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="mywork.html">My Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </div>
+    
+            <!-- Contact Info Section -->
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li>Email: <a href="mailto:vaibhav@example.com">vaibhav@example.com</a></li>
+                    <li>Phone: +1 (438) 939-1361</li>
+                    <li>LinkedIn: <a href="https://linkedin.com">LinkedIn Profile</a></li>
+                    <li>GitHub: <a href="https://github.com">GitHub Profile</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <!-- Follow Me Section -->
+        <div class="footer-follow">
+            <h4>Follow Me</h4>
+            <div class="social-icons">
+                <a href="https://linkedin.com" data-aos="zoom-in"><img src="images/linkedin.png" alt="LinkedIn" class="social-icon"></a>
+                <a href="https://github.com" data-aos="zoom-in" data-aos-delay="200"><img src="images/github.jfif" alt="GitHub" class="social-icon"></a>
+                <a href="https://twitter.com" data-aos="zoom-in" data-aos-delay="400"><img src="images/x.png" alt="Twitter" class="social-icon"></a>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 Vaibhav. All rights reserved. | Built with ❤️</p>
+        </div>
+    </footer>
+            
+    <!-- External Scripts -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="portfolio.js"></script>
+    <script src="jquery.js"></script>
+
+</body>
+
+</html>
